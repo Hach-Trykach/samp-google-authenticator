@@ -1,0 +1,23 @@
+{
+    "user": "GamesDV",
+    "repo": "TOTP",
+    "resources": [
+        {
+            "name": "^TOTP-plugin-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/TOTP.so"]
+        },
+        {
+            "name": "^TOTP-plugin-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/TOTP.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["GamesDV/TOTP"]
+    }
+}
