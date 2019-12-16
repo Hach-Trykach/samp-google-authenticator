@@ -1,23 +1,23 @@
 {
-    "user": "GamesDV",
-    "repo": "TOTP",
+    "user": "Hach-Trykach",
+    "repo": "samp-google-authenticator",
     "resources": [
         {
             "name": "^TOTP-plugin-(.*).zip$",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/TOTP.so"]
+            "plugins": ["plugins/samp-google-authenticator.so"]
         },
         {
             "name": "^TOTP-plugin-(.*).zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/TOTP.dll"]
+            "plugins": ["plugins/samp-google-authenticator.dll"]
         }
     ],
     "runtime": {
-        "plugins": ["GamesDV/TOTP"]
+        "plugins": ["Hach-Trykach/samp-google-authenticator"]
     }
 }
