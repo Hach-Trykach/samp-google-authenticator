@@ -3,14 +3,14 @@
     "repo": "samp-google-authenticator",
     "resources": [
         {
-            "name": "^TOTP-plugin-(.*).zip$",
+            "name": "^samp-google-authenticator-(.*).zip$",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
             "plugins": ["plugins/samp-google-authenticator.so"]
         },
         {
-            "name": "^TOTP-plugin-(.*).zip$",
+            "name": "^samp-google-authenticator-(.*).zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
